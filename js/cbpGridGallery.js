@@ -1,13 +1,4 @@
-/**
- * cbpGridGallery.js v1.0.0
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2014, Codrops
- * http://www.codrops.com
- */
+
 ; (function (window) {
 
 	'use strict';
@@ -32,7 +23,6 @@
 		el.style.transform = transformStr;
 	}
 
-	// from http://responsejs.com/labs/dimensions/
 	function getViewportW() {
 		var client = docElem['clientWidth'],
 			inner = window['innerWidth'];
@@ -329,9 +319,6 @@
 		this.currentItem = this.slideshowItems[this.current];
 	}
 
-	// taken from https://github.com/desandro/vanilla-masonry/blob/master/masonry.js by David DeSandro
-	// original debounce by John Hann
-	// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 	CBPGridGallery.prototype._resizeHandler = function () {
 		var self = this;
 		function delayed() {
