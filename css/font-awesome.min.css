@@ -91,10 +91,10 @@
 .fa.pull-right {
   margin-left: 0.3em;
 }
-.fa-spin {
+/* .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
-}
+} */
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
   animation: fa-spin 1s infinite steps(8);
